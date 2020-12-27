@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">App: Registro y Control de Silabos</string>
+    <string name="config">Configuracion</string>
+    <string name="expor">Exportar Silabo</string>
+    <string name="modif">Modificar Silabo</string>
+    <string name="nuevo">Crear Nuevo Silabo</string>
+    <string name="ver">Ver Silabos</string>
+</resources>

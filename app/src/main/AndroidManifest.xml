@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.registrocontrol">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+
+        android:usesCleartextTraffic="true"
+        >
+
+
+        <activity android:name=".ModificarCompletado"></activity>
+        <activity android:name=".EliminarCompletado" />
+        <activity android:name=".AgregarCompletado" />
+        <activity android:name=".EliminarDocente" />
+        <activity android:name=".ModificarDocente" />
+        <activity android:name=".AgregarDocente" />
+        <activity android:name=".BuscarDocente" />
+        <activity android:name=".Otros" />
+        <activity android:name=".AgUnidad" />
+        <activity android:name=".Crear2" />
+        <activity android:name=".Crear" />
+        <activity android:name=".Descargar" />
+        <activity android:name=".Configuracion" />
+        <activity android:name=".Nuevo" />
+        <activity android:name=".Modificar" />
+        <activity android:name=".Ver" />
+        <activity android:name=".Exportar" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
